@@ -6,23 +6,48 @@ title: Student Blog
 ## Kaiden Do's Page
 
 Go to my [Github account](https://github.com/kaiden-dough) !!
+![](https://cdn.discordapp.com/attachments/721225369872629760/1142726766381760584/IMG_1528.png)
+## My Classes
+1. AP Stats
+2. Honors Principles of Engineering
+3. AP CS A
+4. AP Gov
 
 ## Board
 
 <html>
 <body>
-    <canvas id="Board" width="700" height="700" style="border:3px solid #FFFFFF;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
+    <button onclick="reset()">Clear</button>
+    <br>
+    <button onclick="minus()">-</button>
+    <type id="dsize">3</type>
+    <button onclick="add()">+</button>
+    <canvas id="Board" width="700" height="700" style="border:3px solid #FF0000;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
 </body>
 </html>
 <script>
-     var b = document.getElementById("Board");
+    var b = document.getElementById("Board");
     var board = b.getContext("2d");
     var down
+    var size = 3
+    function reset(){
+        board.clearRect(0, 0, b.width, b.height)
+    }
     function mousedown(){
         down = 1
     }
     function mouseup(){
         down = 0
+    }
+    function minus(){
+        if (size>1){
+            size--
+        }
+        document.getElementById("dsize").innerHTML = size
+    }
+    function add(){
+        size++
+        document.getElementById("dsize").innerHTML = size
     }
     function coordinate(event){
         console.log("hig")
@@ -32,8 +57,10 @@ Go to my [Github account](https://github.com/kaiden-dough) !!
         console.log(x,"-",y)
         if(down){
             console.log("jit")
-            board.fillStyle = "#FFFFFF"
-            board.fillRect(x,y,3,3)
+            board.fillStyle = "#FF0000"
+            board.fillRect(x,y,size,size)
         }
 }
 </script>
+
+# [TIC TAC TOE]({{site.baseurl}}/tictactoe)
