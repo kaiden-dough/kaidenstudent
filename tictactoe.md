@@ -156,10 +156,11 @@
         document.getElementById("button8").innerHTML = ""
         document.getElementById("button9").innerHTML = ""
         document.getElementById("whowin").innerHTML = ""
+        drawBoard()
     }
     function won(){
         if(win){
-            alert(winner, "wins")
+            alert(winner + " wins")
             reset()
         }
     }
@@ -376,13 +377,10 @@
         board.beginPath();
         board.moveTo(230, 30);
         board.lineTo(230, 630);
-        
         board.moveTo(430, 30);
         board.lineTo(430, 630);
-        
         board.moveTo(30, 230);
         board.lineTo(630, 230);
-        
         board.moveTo(30, 430);
         board.lineTo(630, 430);
         board.closePath();
