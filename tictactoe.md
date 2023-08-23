@@ -11,91 +11,91 @@
     }
     #button1 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:22.7%;
-        top:18.3%;
+        left:7.4%;
+        top:13.3%;
         width: 195px;
         height: 195px;
     }
     #button2 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:35.9%;
-        top:18.3%;
+        left:34.5%;
+        top:13.3%;
         width: 195px;
         height: 195px;
     }
     #button3 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:49.1%;
-        top:18.3%;
+        left:61.6%;
+        top:13.3%;
         width: 195px;
         height: 195px;
     }
     #button4 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:22.7%;
-        top:45.5%;
+        left:7.4%;
+        top:40%;
         width: 195px;
         height: 195px;
     }
     #button5 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:35.9%;
-        top:45.5%;
+        left:34.5%;
+        top:40%;
         width: 195px;
         height: 195px;
     }
     #button6 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:49.1%;
-        top:45.5%;
+        left:61.6%;
+        top:40%;
         width: 195px;
         height: 195px;
     }
     #button7 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:22.7%;
-        top:72.5%;
+        left:7.4%;
+        top:66.7%;
         width: 195px;
         height: 195px;
     }
     #button8 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:35.9%;
-        top:72.5%;
+        left:34.5%;
+        top:66.7%;
         width: 195px;
         height: 195px;
     }
     #button9 {
         font-size:100px;
-        background-color:#FBFAF7;
+        background-color:#F6F6F6;
         border:none;
         position:absolute;
-        left:49.1%;
-        top:72.5%;
+        left:61.6%;
+        top:66.7%;
         width: 195px;
         height: 195px;
     }

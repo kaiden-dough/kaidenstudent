@@ -13,9 +13,13 @@ Go to my [Github account](https://github.com/kaiden-dough) !!
 3. AP CS A
 4. AP Gov
 
-## Board
+
 
 <html>
+<details open>
+<summary>
+Board
+</summary>
 <body>
     <button onclick="reset()">Clear</button>
     <br>
@@ -24,6 +28,7 @@ Go to my [Github account](https://github.com/kaiden-dough) !!
     <button onclick="add()">+</button>
     <canvas id="Board" width="700" height="700" style="border:3px solid #FF0000;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
 </body>
+</details>
 </html>
 <script>
     var b = document.getElementById("Board");
@@ -62,5 +67,6 @@ Go to my [Github account](https://github.com/kaiden-dough) !!
         }
 }
 </script>
+
 
 # [TIC TAC TOE]({{site.baseurl}}/tictactoe)
