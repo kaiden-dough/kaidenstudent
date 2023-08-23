@@ -1,7 +1,11 @@
 ---
+toc: true
 comments: true
 layout: post
-title: Tools
+title: I love my tools 
+description: Mi amor
+courses: { csa: {week: 0} }
+type: hacks
 ---
 
 My Beloved Programming Tools,
