@@ -1,6 +1,6 @@
 # Chinese Foods API
 <html>
-    <input type="text" id="searchBox" placeholder="Enter a Chinese Food">
+    <input type="text" id="searchBox" placeholder="Enter a Mexican Food">
     <button onclick="search()">Enter</button>
     <div id="container"></div>
 </html>
