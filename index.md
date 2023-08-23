@@ -26,7 +26,7 @@ Board
     <button onclick="minus()">-</button>
     <type id="dsize">3</type>
     <button onclick="add()">+</button>
-    <canvas id="Board" width="700" height="700" style="border:3px solid #FF0000;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
+    <canvas id="Board" width="700" height="700" style="border:3px solid #548BC2;" onmousemove="coordinate(event)" onmousedown="mousedown()" onmouseup="mouseup()"></canvas>
 </body>
 </details>
 </html>
@@ -62,7 +62,7 @@ Board
         console.log(x,"-",y)
         if(down){
             console.log("jit")
-            board.fillStyle = "#FF0000"
+            board.fillStyle = "#548BC2"
             board.fillRect(x,y,size,size)
         }
 }
