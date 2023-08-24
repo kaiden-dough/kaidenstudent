@@ -70,4 +70,4 @@ Board
 
 
 # [TIC TAC TOE]({{site.baseurl}}/tictactoe)
-# [I LOVE MY TOOLS]({{site.baseurl}}/ILOVEMYTOOLS)
+# [I LOVE MY TOOLS]({{site.baseurl}}/2023/08/22/ILOVEMYTOOLS.html)
