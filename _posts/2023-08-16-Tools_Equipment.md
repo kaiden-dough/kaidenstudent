@@ -27,7 +27,7 @@ type: hacks
     - Copy ```bash ... curl ...```  command using copy box on website
     - Launch ```terminal``` from search bar
     - Paste ```bash ... curl ...``` command into Terminal ... 
-    - Make sure command starts, this should provide feedback/output in terminal and could take a long time, like 10-min, there could be a  prompt in the middle, at about 5-minutes.  Follow any on screen instructions provided in terminal output to finish.
+    - Make sure command starts, this should provide feedback/output in terminal and could take a long time, like 10-min, there could be a  prompt in the middle, at about 5-minutes.  Follow any on screen instructions provided in terminal output to finish
 - Homebrew installs a tool called "brew" which helps add and manage developer packages on MacOS.
 
 > At this point, the next task is to prepare tools.  <mark>You must start a new Terminal</mark>.  Now the Terminal prompt should be <mark>prefixed with (base)</mark>.  If not, you need to go back to Anaconda install.
